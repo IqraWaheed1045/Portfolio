@@ -7,7 +7,7 @@ import { IoLogoGithub } from "react-icons/io";
 const Contect = () => {
     return (
         <>
-            <div className='w-[90%] mx-auto text-center  h-[80vh]  py-4 px-4 bg-[#384B70] font-Ubuntu flex items-center flex-col'>
+            <div className='w-[90%] mx-auto text-center  lg:h-[80vh] h-[40vh]  py-4 px-4 bg-[#384B70] font-Ubuntu flex items-center flex-col'>
                 <h2 className='text-[30px] font-bold text-white'>Contact</h2>
                 <div className='flex justify-evenly items-center'>
                     <div className='w-full text-white flex-1 '>
@@ -47,7 +47,7 @@ const Contect = () => {
                         </div>
 
                     </div>
-                    <div className="contact-col flex-1 ">
+                    <div className=' flex-1  mt-5'>
 
                         <form action="https://api.web3forms.com/submit" method='POST' className='flex flex-col items-center justify-center'>
                             <input type="hidden" name="access_key" value="d472553d-f63a-4598-a253-38f8c40d9dfb" />

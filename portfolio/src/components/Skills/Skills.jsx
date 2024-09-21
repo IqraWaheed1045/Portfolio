@@ -8,12 +8,12 @@ import react from '../assets/react.png';
 
 const Skills = () => {
     return (
-        <div className='w-[90%] mx-auto text-center  h-[80vh] mt-1 bg-[#384B70] text-white  py-4 px-4 flex flex-col items-center justify-center'>
+        <div className='w-[90%] mx-auto text-center lg:[80vh]  md:h-[80vh] h-[100vh] mt-1 bg-[#384B70] text-white  py-4 px-4 flex flex-col items-center justify-center'>
             <h2 className='my-4 text-[40px] font-bold text-white'>Skills</h2>
-            <div className='w-[80%] h-[100%] gap-10   grid grid-cols-3'>
+            <div className='w-[80%] h-[100%] mx-auto text-center lg:gap-10 gap-6    grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
 
                 {/*Subject Div*/}
-                <div className='w-[300px] h-[140px] bg-transparent flex justify-center items-center gap-3 py-2 px-2 rounded-lg   border-2 border-gray-400 animate-slideInLeft'>
+                <div className='w-[300px] h-[140px] bg-transparent flex justify-center items-center lg:gap-3 py-2 px-2 rounded-lg   border-2 border-gray-400 animate-slideInLeft'>
                     <div className='w-[90px] h-[90px]'>
                         <img src={html} alt="" className='w-full h-[100%] rounded-full object-cover border-2 border-gray-400' />
                     </div>
@@ -24,7 +24,7 @@ const Skills = () => {
                 </div>
 
                 {/*CSS DIV */}
-                <div className='w-[300px] h-[140px] border-2 bg-transparent border-gray-300 flex justify-center items-center gap-3 py-2 px-2 rounded-lg'>
+                <div className='w-[300px] h-[140px] border-2 bg-transparent border-gray-300 flex justify-center items-center lg:gap-3 py-2 px-2 rounded-lg'>
                     <div className='w-[90px] h-[90px]'>
                         <img src={css} alt="" className='w-full h-[100%] rounded-full object-cover border-2 border-gray-400' />
                     </div>
